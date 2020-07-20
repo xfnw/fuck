@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cat $1 | ./bf2c | gcc -x c - -o $2
+
