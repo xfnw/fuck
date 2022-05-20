@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	fprintf(out,
 		"#include <stdio.h>\n"
 		"#include <stdlib.h>\n\n"
-"char *getcharnull(void) {\nchar *a = getchar();\nif (a != EOF){\nreturn a;\n}else{\nreturn NULL;\n}\n}\n\n"
+		"char *getcharnull(void) {\nchar *a = getchar();\nif (a != EOF){\nreturn a;\n}else{\nreturn NULL;\n}\n}\n\n"
 		"int main(int argc, char **argv)\n{\n"
 		"\tunsigned char *cell = calloc(%d, 1);\n"
 		"\tunsigned char *cells = cell;\n"
